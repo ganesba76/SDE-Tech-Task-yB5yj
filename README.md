@@ -38,7 +38,7 @@ Write SQL queries to answer the following questions:
 Make sure that your queries can be run against the database created in the ETL.
 
 ### Additional SQL challenge
-Please upload the `50000 Sales Records.csv` into your database/data warehouse.
+Please upload the `50000 Sales Records.csv` [(download link)](https://drive.google.com/file/d/1g0nZAHn46gEBUmoPaMVhAIF9t7-55AsA/view?usp=sharing) into your database/data warehouse.
 
 Write SQL queries to answer the following questions:
  
