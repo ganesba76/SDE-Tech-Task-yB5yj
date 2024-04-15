@@ -3,7 +3,7 @@
 ## Introduction
 This technical challenge is designed to test your expertise in Python and SQL for ETL. 
 
-As a Senior Data Engineer, your task is to design a robust ETL pipeline to extract data from an open source API, carry out specified transformations (alternatively, transformations after loading), and load the data into a local database (open for your choice e.g. sqlite3) for analysis. Specifically, you will work with JSONPlaceholder (https://jsonplaceholder.typicode.com/) to simulate working with data from a simple blogging platform.
+As a Senior Data Engineer, your task is to design a robust ETL pipeline to extract data from an open source API, carry out specified transformations (alternatively, transformations after loading), and load the data into a database (open for your choice but cloud preferred, otherwise local is fine e.g. sqlite3) for analysis. Specifically, you will work with JSONPlaceholder (https://jsonplaceholder.typicode.com/) to simulate working with data from a simple blogging platform. A separate SQL task is included to test additional SQL proficiency.
 
 **!!! NOTE: You are not required to spend more than 1.5 Hrs on this task. You are not expected to fully complete this task in this timeframe so if you get stuck, simply proceed with another part of this task and note in your README what steps you would have taken to complete the task.**
 
@@ -36,6 +36,15 @@ Write SQL queries to answer the following questions:
 3. Identify the day of the week when the most `lengthy` posts are created (mock date using the `id` of posts as the day offset from the UNIX epoch).
 
 Make sure that your queries can be run against the database created in the ETL.
+
+### Additional SQL challenge
+Please upload the `50000 Sales Records.csv` into your database/data warehouse.
+
+Write SQL queries to answer the following questions:
+ 
+•	Retrieve total sales revenue, number of units sold, and average price per unit for each item type for the first quarter of 2017.
+•	Identify the top 3 item types by sales revenue for each region in the last quarter.
+•	Calculate the year-over-year growth in sales revenue for each item type.
 
 ## Deliverables
 1. [ ] **Python ETL** - A Python ETL pipeline script `main.py` that is ready to run.
