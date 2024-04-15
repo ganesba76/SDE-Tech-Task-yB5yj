@@ -48,12 +48,13 @@ Write SQL queries to answer the following questions:
 
 ## Deliverables
 1. [ ] **Python ETL** - A Python ETL pipeline script `main.py` that is ready to run.
-2. [ ] **Unit Tests** - A collection of unit tests for your ETL pipeline.
-3. [ ] **SQL** - SQL schema creation file and any additional SQL query files.
-4. [ ] **SQL Answers** - Answers to the SQL analysis challenge questions in a Markdown file, including the SQL queries used.
-5. [ ] **Evidence** - Evidence of successful ETL processing, such as unit test outputs, screenshots, and data files.
-6. [ ] **README** - A detailed README.md that includes all required documentation.
-7. [ ] Any additional documentation you think would be helpful for understanding your approach.
+2. [ ] **DB file(s)** - If you used a local DB platform, include all relevant DB files. 
+3. [ ] **Unit Tests** - A collection of unit tests for your ETL pipeline.
+4. [ ] **SQL** - SQL schema creation file and any additional SQL query files.
+5. [ ] **SQL Answers** - Answers to the SQL analysis challenge questions in a Markdown file, including the SQL queries used.
+6. [ ] **Evidence** - Evidence of successful ETL processing, such as unit test outputs, screenshots, and data files.
+7. [ ] **README** - A detailed README.md that includes all required documentation.
+8. [ ] Any additional documentation you think would be helpful for understanding your approach.
 
 ## Evaluation Criteria
 1. [ ] **Code Quality**: Efficient data manipulation with Python and SQL. Clear, well-structured code that follows best practice to a reasonable extent.
