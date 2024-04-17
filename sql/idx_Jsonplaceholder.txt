@@ -1,0 +1,2 @@
+CREATE INDEX idx_GB_posts_userId_body_length ON GB_posts(userId, LENGTH(body));
+CREATE INDEX idx_GB_posts_userId_title_body_length ON GB_posts(userId, LENGTH(title), LENGTH(body));
